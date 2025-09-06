@@ -42,7 +42,7 @@ case "$1" in
     docker stop $CONTAINER_NAME
     docker rm $CONTAINER_NAME
     docker run -d \
-      -p 8000:8000 \
+      -p 8001:8000 \
       -p 9443:9443 \
       --name $CONTAINER_NAME \
       --restart=always \
